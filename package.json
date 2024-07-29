@@ -1,0 +1,33 @@
+{
+  "name": "tekit-ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "tekit-ui": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["cli", "ui", "kit", "components"],
+  "author": "danilppzz",
+  "license": "MIT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/hash-ui.git"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "type-fest": "^4.23.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
