@@ -10,7 +10,7 @@ add
   .description('Add a component from the GitHub repository')
   .action(async (component: string) => {
     try {
-      const baseUrl = 'https://raw.githubusercontent.com/danilppzz/Hash-UI/main/components/';
+      const baseUrl = 'https://raw.githubusercontent.com/danilppzz/Tekit-UI/main/components/';
       const fileUrl = `${baseUrl}${component}.tsx`;
       const outputPath = path.join(process.cwd(), 'src/components/ui', `${component}.tsx`);
 
