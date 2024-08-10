@@ -1,4 +1,5 @@
 # Tekit UI
+![alt](https://wakatime.com/badge/user/d2c6ab59-bcd7-432e-bda2-6d2ad77feef1/project/e6382a6b-2d06-4f56-a434-a0268c1ca4ea.svg)
 
 Tekit UI is a React (TypeScript) component library that allows you to quickly and easily add predefined components to your project via the command line.
 
